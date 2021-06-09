@@ -46,7 +46,7 @@ Command(⌘) + T
 Ctrl + пробел
 ```
 Во всплывающем окошке введите слово «Терминал» (terminal). После того, как увидите нужное приложение, просто кликните на него (не проверял).
-
+![Terminal](https://github.com/robotrainer/tasks_C/blob/master/img/terminal.jpg)
 ---
 ### 2 Компилятор gcc <a name="gcc"><a>
 ...
