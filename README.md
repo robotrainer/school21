@@ -42,16 +42,13 @@ Ctrl + Alt + T
 Command(⌘) + T
 ```
 Другой способ запуска терминала в macOS:
-```
-Ctrl + пробел
-```
+	Ctrl + пробел
 Во всплывающем окошке введите слово «Терминал» (terminal). После того, как увидите нужное приложение, просто кликните на него (не проверял).
 
-	Так выглядит терминла в Linux Mint:
-	![Terminal](https://github.com/robotrainer/tasks_C/blob/master/img/terminal.jpg)
+Так выглядит терминла в Linux Mint:
+![Terminal](https://github.com/robotrainer/tasks_C/blob/master/img/terminal.jpg)
 
-Основные команды навигации в терминале:
-
+**Основные команды навигации в терминале:**
 Узнать, в какой рабочей папке вы находитесь:
 ```shell
 $ pwd
