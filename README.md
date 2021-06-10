@@ -280,6 +280,90 @@ $ vim main.c
 	:term - открыть терминал в vim
 	Ctrl + w - переключаться между окнами
 
+**Заголовок Школы 21 (Школы 42)**
+
+Во всех файлах должен быть заголовок (heder), который установлен правилами Школы (см.на рисунке ниже).
+
+![Header](https://github.com/robotrainer/tasks_C/blob/master/img/header.jpg)
+
+Для создания заголовка 42header необходимо использовать плагин, который скачивается и устанавливается с помощью пакетного менеджера Vundle.
+
+> Плагин нужен только тем, кто работает на своём пк/ноутбуке. На компьютерах школы всё и так прекрасно работает.
+
+Чтобы скачаь Vundle, понадобиться установить систему контроля версий Git (как им пользоваться, рассказываю  ниже):
+
+	$ sudo apt install git
+
+Теперь создадим необходимую директорию и скачаем туда менеджер Vundle:
+
+	$ mkdir -p ~/.vim/bundle
+	$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Далее настраиваем Vim и пактный менеджер Vundle, а также запишем в очередь на установку плагин 42header. Для этого создадим в каталоге ~/.vim файл vimrs:
+
+	$ cd .vim/
+	$ vim vimrc
+
+Был созда и сразу открыт в редакторе vim файл vimrc, в который необходимо записать следующие настройки:
+
+	set number
+	set cursorline
+	set cursorcolumn
+	set autoindent
+	set cindent
+	highlight ExtraWhitespace ctermbg=red guibg=red
+	match ExtraWhitespace /\s\+$\|\s+\s{1}/highlight MoreThan80 ctermbg=blue guibg=blue
+	:2match MoreThan80 /\%81v.\+/
+	set tabstop=4
+	set shiftwidth=4
+
+	set nocompatible
+	filetype off
+	set rtp+=~/.vim/bundle/Vundle.vim
+	call vundle#begin()
+	Plugin 'VundleVim/Vundle.vim'
+	Plugin 'pandark/42header.vim'
+	
+	" Add plugins here
+
+	call vundle#end()
+	filetype plugin indent on
+
+Теперь необходимо установить и обновить прописанные в vimrc плагины. Откройте vim и выполните в нём команду:
+
+	$ vim
+	:PluginInstall
+
+Пропишем в файле настроек командной оболочки имя пользователя $USER и почту $MAIL для нашего заголовка 42header. Открываем .bashrc (или .zshrc, если у вас zsh): 
+
+	$ vim .bashrc
+
+и прописываем вконце строки:
+
+	export USER=тут_будет_ваш_login
+	export MAIL=тут_будет_ваш_email
+
+После сохранения .bashrc, его необходимо перезапустить:
+
+	$ source .bashrc
+
+Проверяем. Запускаем vim и прописываем команду:
+
+	:FortyTwoHeader
+
+Чтобы поменять команду с `:FortyTwoHeader` на команду `:Stdheader`, изменим строку 187 в:
+
+	$ vim ~/.vim/bundle/42header.vim/plugin/42header.vim
+
+на:
+
+	command! Stdheader call s:fortytwoheader()
+
+Чтобы сделать печать заголовка при нажатии на кнопку `F5`, пропишем в файле vimrc:
+
+	nmap <f5> :Stdheader<CR
+
+
 [Оглавление](#content)
 
 ---
