@@ -182,7 +182,7 @@ $ vim file_name.expansion
 Пример:
 $ vim main.c
 ```
-# Работа в vim <a name="workVim"></a>
+#### Работа в vim <a name="workVim"></a>
 
 **Основные режимы работы**
 
