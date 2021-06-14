@@ -387,7 +387,7 @@ $ vim main.c
 [Drakula](https://draculatheme.com/vim)
 
 Так выглядит цвеовая схема Drakula:
-![Цветовая схема Drakuls](https://ibb.co/tLpvXHm)
+![Цветовая схема Drakuls](https://i.ibb.co/Z2zFmfL/Dracula.png)
 
 Выбор встроенных в vim  цветовых схем:
 ```
