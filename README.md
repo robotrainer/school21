@@ -61,7 +61,7 @@ P.S. Все примеры и команды, показанные мной ни
 Во всплывающем окошке введите слово «Терминал» (terminal). После того, как увидите нужное приложение, просто кликните на него (не проверял).
 
 Так выглядит терминла в Linux Mint:
-![Terminal](https://github.com/robotrainer/tasks_C/blob/master/img/terminal.jpg)
+![Terminal](https://ibb.co/sH3DVM0)
 
 **Основные команды навигации в терминале:** <a name="termCommand"></a>
 
@@ -291,7 +291,7 @@ $ vim main.c
 
 Во всех файлах должен быть заголовок (heder), который установлен правилами Школы (см.на рисунке ниже).
 
-![Header](https://github.com/robotrainer/tasks_C/blob/master/img/header.jpg)
+![Header](https://ibb.co/NY1xgkz)
 
 Для создания заголовка 42header необходимо использовать плагин, который скачивается и устанавливается с помощью пакетного менеджера Vundle.
 
@@ -387,7 +387,7 @@ $ vim main.c
 [Drakula](https://draculatheme.com/vim)
 
 Так выглядит цвеовая схема Drakula:
-![Цветовая схема Drakuls](https://github.com/robotrainer/tasks_C/blob/master/img/Dracula.jpg)
+![Цветовая схема Drakuls](https://ibb.co/tLpvXHm)
 
 Выбор встроенных в vim  цветовых схем:
 ```
