@@ -64,6 +64,7 @@ P.S. Все примеры и команды, показанные мной ни
 Так выглядит терминла в Linux Mint:
 ![Terminal](https://i.ibb.co/162pmwD/terminal.png)
 
+
 **Основные команды навигации в терминале:** <a name="termCommand"></a>
 
 Узнать, в какой рабочей папке вы находитесь:
@@ -450,7 +451,66 @@ $ ./exe_file_name
 
 ---
 ### 4 Устанавливаем и настраиваем norminette <a name="norminette"><a>
-...
+
+Для работы с norminette нам поребуется установить Python 3 и pip. Pip - это инструмент, который позвляет устанавливать и управлять библиотеками и модулями в проектах на Python.
+
+Устанавливаем Python 3:
+```
+$ sudo apt install python3.8
+```
+
+Вместо `python3.8` может быть любая версия, но для работы norminette требуется версии 3.7+ (3.7, 3.8, 3.9).
+
+Проверяем версию установленного python3:
+```
+$ python3 -V
+```
+Устанавливаем инструмент pip:
+```
+$ sudo apt install -y python3-pip
+```
+Проверяем версию pip:
+```
+$ pip -V
+```
+У меня установилась версия 21.1.2.
+
+Устанавливаем norminette:
+```
+$ python3 -m pip install norminette
+```
+Бновляем до последней версии:
+```
+$ python3 -m pip install --upgrade norminette
+```
+Для удобной работы с norminette добавим пару  `alias` в файл .bashrc или .zshrc. Откроем файл .bashrc в домашней декриктории:
+```
+$ vim .bashrc
+```
+В самом низу добавляем две строчки:
+```
+alias norminette="~/.local/bin/norminette"                                     
+alias norm="python3 ~/.local/bin/norminette"
+```
+Сохраняем изменения и перезапускаем .bashrc:
+```
+$ source ~/.bashrc
+```
+Теперь norminette можно вызывать bash-командой `norminette` или `norm`. Проверяем версию norminette:
+```
+$ norminette -v
+```
+или
+```
+norm -v
+```
+Чтобы проверить ваш код через norminette, в катологе, в котором находится файл с вашим кодом, вводим следующую команду:
+```
+$ norm file_name.c
+```
+Если norminette выдаёт сообщение `OK!`, значит код написан правильно, иначе будут сообщения о различных ошибках.
+
+Описание ошибок можете прочитать тут: [Ошибки в коде](https://42-21-school.blogspot.com/2019/07/main.html)
 
 [Оглавление](#content)
 
