@@ -630,7 +630,11 @@ $ git --version
 
 Ссылку по которой будет происходить клонирование репозитория можно найти на стриничке репозитория:
 
-![git clone](https://i.ibb.co/bB1dXsG/git-clone.png)
+![git clone](https://i.ibb.co/Ykqxyhn/git-clone.png)
+
+Если сделали всё верно, то в каталоге `project` должен появиться каталог с названием репозитория `school21`, в котором будут находиться склонированные файлы репозитория, доступные для редактирования.
+
+![terminal](https://i.ibb.co/nmxFgz9/terminal-git-clone.png)
 
 **Индексация изменений** <a name="git_add"></a>
 
