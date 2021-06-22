@@ -29,6 +29,7 @@
 	- [Индексация изменений](#git_add)
 	- [Коммит изменений](#git_commit)
 	- [Отправка изменений в удалённый репозиторий](#git_push)
+	- [Список благодарных](#contributor)
 6. [Hello, World!](#helloWorld)
 
 ### Введение <a name="intro"></a>
@@ -654,15 +655,14 @@ $ git --version
 
 ...
 
+**Список благодарных** <a name="contributor"></a>
+
 <details>
 <summary>Тут были и поблагодарили:</summary>
 
-
-[@robotraine](https://github.com/robotraine)
-
+1. [@robotraine](https://github.com/robotraine)
 
 </details>
-
 
 [Оглавление](#content)
 
