@@ -589,16 +589,16 @@ Git и GitHub настроены на взаимодействие, потому
 
 Для macOS. Открываем терминал и прописываем команду:
 
- - Если установлен Homebrew
-```
-& brew install git
-```
- - Если нет, то вводим эту команду
-```
-$ git --version
-После этого появится окно, где предложит установить Command Line Tools (CLT).
-Соглашаемся и ждем установки. Вместе с CLT установиться и git.
-```
+Если установлен Homebrew
+
+	$ brew install git
+
+Если нет, то вводим эту команду
+
+	$ git --version
+	После этого появится окно, где предложит установить Command Line Tools (CLT).
+	Соглашаемся и ждем установки. Вместе с CLT установиться и git.
+
 Для Linux. В терминале прописываем команду:
 
 	$ sudo apt install git
@@ -660,9 +660,7 @@ $ git --version
 <details>
 <summary>Тут были и поблагодарили:</summary>
 
-
-1. [@robotraine](https://github.com/robotraine)
-
+[@robotraine](https://github.com/robotraine)
 
 </details>
 
