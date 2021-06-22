@@ -660,9 +660,12 @@ $ git --version
 <details>
 <summary>Тут были и поблагодарили:</summary>
 
+
 1. [@robotraine](https://github.com/robotraine)
 
+
 </details>
+
 
 [Оглавление](#content)
 
