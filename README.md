@@ -657,9 +657,9 @@ $ git --version
 <details>
 <summary>Тут были и поблагодарили:</summary>
 
-```
-robotraine
-```
+
+[@robotraine](https://github.com/robotraine)
+
 
 </details>
 
