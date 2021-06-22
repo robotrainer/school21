@@ -660,7 +660,9 @@ Git и GitHub настроены на взаимодействие, потому
 <details>
 <summary>Тут были и поблагодарили:</summary>
 
+
 [@robotraine](https://github.com/robotraine)
+
 
 </details>
 
