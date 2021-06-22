@@ -658,14 +658,11 @@ Git и GitHub настроены на взаимодействие, потому
 **Список благодарных** <a name="contributor"></a>
 
 <details>
-<summary>Тут были и поблагодарили:</summary>
+<summary>Ткни сюда и увидишь список:</summary>
 
-
-[@robotraine](https://github.com/robotraine)
-
+1. robotraine
 
 </details>
-
 
 [Оглавление](#content)
 
