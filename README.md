@@ -675,9 +675,9 @@ Git и GitHub настроены на взаимодействие, потому
 <details>
 <summary>Ткни сюда и увидишь список:</summary>
 
-1. 
-2. 
-...
+1. robotraine 
+2. ...
+3. ...
 
 </details>
 
