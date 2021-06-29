@@ -832,10 +832,9 @@ int	main(void)	//объявляем функцию main, которая явля
 ```c
 #include <unistd.h>
 
-int main(void)
+int	main(void)
 {
 	write(1, "Hellow, World!\n", 15);
-
 	return (0);
 }
 ```
