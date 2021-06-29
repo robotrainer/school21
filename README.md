@@ -220,6 +220,7 @@ $ vim main.c
 ```
 
 [Оглавление](#content)
+
 ---
 #### Работа в vim <a name="workVim"></a>
 
