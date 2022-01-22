@@ -802,7 +802,7 @@ Git и GitHub настроены на взаимодействие, потому
 1. robotraine 
 2. ...
 3. ...
-4. Kesha2603 aslbkvk
+4. Kesha2603 
 
 </details>
 
