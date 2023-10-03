@@ -805,7 +805,7 @@ Git и GitHub настроены на взаимодействие, потому
 <summary>Ткни сюда и увидишь список:</summary>
 
 1. robotraine 
-2. ...
+2. 67thUnit
 3. ...
 
 </details>
