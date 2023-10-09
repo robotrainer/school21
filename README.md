@@ -801,12 +801,12 @@ Git и GitHub настроены на взаимодействие, потому
 
 **Список благодарных** <a name="contributor"></a>
 
-<details>
+<details
 <summary>Ткни сюда и увидишь список:</summary>
 
 1. robotraine 
-2. ...
-3. ...
+2. ksu15051
+3. .
 
 </details>
 
